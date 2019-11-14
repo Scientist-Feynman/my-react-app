@@ -1,0 +1,33 @@
+/* Medium devices (galaxy s9/s9+, 360px and up) */
+@media only screen and (min-width: 360px) {
+    body {background: red;}
+} 
+/* Extra small devices (iphone6/7/8/X/XS, 375px and down) */
+@media only screen and (max-width: 375px) {
+    body {background: orange;}
+}
+/* Small devices (iphone 6/7/8 plus, 414px and up) */
+@media only screen and (min-width: 414px) {
+    body {background: yellow;}
+}
+/* Large devices (ipad, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {background: green;}
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {background: pink;}
+}
+
+ul,li,ol{
+    list-style-type: none;
+}
+.textsize{
+    width: 100px;
+    font-size: 20px;
+    text-justify: newspaper;
+    text-align: center
+}
+#navigates li {
+    float: left;
+}
