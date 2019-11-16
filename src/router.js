@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import C2 from './components/C2.js';
+import C2 from './components/C2';
 
 import Home from './route/Home';
 import Login from './route/Login';
@@ -12,6 +12,7 @@ import Science from './route/Science';
 import Music from './route/Music';
 
 import BlogItems from './route/BlogItems';
+
 
 const value = 0;
 
@@ -29,6 +30,8 @@ function RouterConfig(){
 
                 <Route path="/blogitems/:id" component={BlogItems} />
             </Switch>
+
+            
         </Router>
     )
 }

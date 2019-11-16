@@ -8,7 +8,7 @@ export default () => {
         <div>
             <h1>主页</h1>
             <nav>
-                <ul id="navigates">
+                <ul id="floatnavigates">
                     <li className="textsize"><Link to="/login">登录</Link></li>
                     <li className="textsize"><Link to="/news">新闻</Link></li>
                     <li className="textsize"><Link to="/video">视频</Link></li>
@@ -16,8 +16,8 @@ export default () => {
                     <li className="textsize"><Link to="/science">科学</Link></li>
                     <li className="textsize"><Link to="/music">音乐</Link></li>
                 </ul>
-                
             </nav>
+            
         </div>
     )
 }
